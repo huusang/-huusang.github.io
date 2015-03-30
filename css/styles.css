@@ -129,13 +129,13 @@ body {
 .professionalSkils .star-colum img {
     width: 10%;
     float: left;
-    margin-left:1%;
+    /*margin-left:1%;*/
 }
 .content  .content-right {
     float: left;
     padding: 0% 0% 0% 0%;
     box-sizing: border-box;
-    margin-bottom: 0px;
+    margin-bottom: 1%;
     background: url(../img/right.jpg) repeat;
 }
 .content .content-right .part {
@@ -271,7 +271,7 @@ footer .footer-right p {
         padding-top: 9%;
     }
     .content .content-left {
-        padding-bottom: 19px;
+        padding-bottom: 15%;
     }
     .content .content-left  .contact {
         display: none;
