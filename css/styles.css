@@ -177,6 +177,8 @@ footer {
     clear: both;
     margin: 0 auto;
     background-color: gray;
+    position: fixed;
+    bottom: 0;
 
 
 }
@@ -250,7 +252,7 @@ footer .footer-right p {
 
 }
 /*apply for mobi*/
-@media only screen  and (max-width: 480px) {
+@media only screen  and (max-width: 560px) {
     body {
         font-size: 70%;
     }
