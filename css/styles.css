@@ -251,16 +251,16 @@ footer .footer-right p {
     }
 
 }
-/*@media only screen  and (max-width: 720px) {
+@media only screen  and (max-width: 720px) {
     body {
         font-size: 85%;
     }
 
-}*/
+}
 /*apply for mobi*/
-@media only screen  and (max-width: 720px) {
+@media only screen  and (max-width: 600px) {
     body {
-        font-size: 85%;
+        font-size: 80%;
     }
     .content .content-left  .contact {
         display: none;
