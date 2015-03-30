@@ -157,12 +157,12 @@ body {
 
 }
 .content .content-right .part .title h3 {
-    padding: 1%;
+    padding: .5%;
     box-sizing: border-box;
 
 }
 .content .content-right .part .content-colum h4,p {
-    padding: 1%;
+    padding: .5%;
     box-sizing: border-box;
 
 }
@@ -175,12 +175,18 @@ footer {
     height: 90px;
     background: white;
     clear: both;
-    margin: 0 auto;
     background-color: gray;
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;*/
+    /*bottom: 0;*/
 
 
+
+}
+footer .footer-content {
+    width:96%;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    height: 90px;
 }
  footer .footer-left {
     float: left;
@@ -233,28 +239,28 @@ footer .footer-right p {
     overflow-y: hidden;
  }
 
- @media only screen  and (max-width: 960px) {
+ @media only screen  and (max-width: 1024px) {
     body {
         font-size: 95%;
     }
 
 }
-@media only screen  and (max-width: 720px) {
+@media only screen  and (max-width: 960px) {
     body {
         font-size: 90%;
     }
 
 }
-@media only screen  and (max-width: 620px) {
+@media only screen  and (max-width: 720px) {
     body {
         font-size: 85%;
     }
 
 }
 /*apply for mobi*/
-@media only screen  and (max-width: 560px) {
+@media only screen  and (max-width: 650px) {
     body {
-        font-size: 70%;
+        font-size: 80%;
     }
     .content .content-left  .contact {
         display: none;
@@ -264,12 +270,12 @@ footer .footer-right p {
      }
      footer .footer-left .infoProfessional {
         display: block;
-        font-size: 10px;
+        font-size: 13px;
         color: white;
      }
 
      footer .footer-right  {
-        font-size: 12px;
+        font-size: 13px;
      }
      footer .footer-right p {
         height: 90px;
