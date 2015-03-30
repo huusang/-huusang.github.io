@@ -254,6 +254,10 @@ footer .footer-right p {
 @media only screen  and (max-width: 720px) {
     body {
         font-size: 85%;
+
+    }
+    .header-left {
+        padding-top: 10%;
     }
 
 }
@@ -263,7 +267,7 @@ footer .footer-right p {
         font-size: 80%;
     }
     .header-left {
-        padding-top: 10%;
+        padding-top: 20%;
     }
     .content .content-left  .contact {
         display: none;
