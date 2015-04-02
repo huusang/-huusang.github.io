@@ -175,7 +175,6 @@ body {
 .content .content-right .resume .img img {
     width: 100%;
     box-shadow: 1px 1px 2px black;
-    /*height: 200px;*/
 }
 .content .content-right .resume .goal {
     float: left;
@@ -201,9 +200,11 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-.content .content-right .part .title h3 {
-    padding: .5%;
+.content .content-right .part .title span {
+    /*padding: .5%;*/
     box-sizing: border-box;
+    font-weight: 600;
+    font-size: 110%;
 
 }
 .content .content-right .part .content-colum h4,p {
