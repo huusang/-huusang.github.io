@@ -59,10 +59,12 @@ body {
      text-align: center;
 }
 .header-left span {
-    margin-top:3%;
+    /*margin-top:3%;*/
     font-size: 150%;
     font-weight: bold;
-    margin-bottom: 2%;
+    /*margin-bottom: 2%;*/
+    display: inline-block;
+    vertical-align: middle;
 
 }
 .header-left  h3 {
@@ -87,8 +89,49 @@ body {
     padding: 6.666666667% 6.666666667% 0  6.666666667%;
     box-sizing: border-box;
 }
+.content .content-left .contact img {
+
+     vertical-align: middle;
+
+     /*border: 1px solid black;*/
+}
+.content .content-left .contact > span {
+    font-size: 110%;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 4%;
+}
+.content .content-left .skills img {
+    /*display: inline-block;*/
+    vertical-align: middle;
+   /* height: 30px;*/
+    /*border: 1px solid black;*/
+}
+.content .content-left .skills > span {
+    font-size: 110%;
+    font-weight: 600;
+}
+.content .content-left .skills .techicalSkills > span {
+    font-size: 105%;
+    font-weight: 600;
+}
+.content .content-left .skills  .professionalSkils > div > span {
+    font-size: 105%;
+    font-weight: 600;
+}
+.content .content-left .skills  .professionalSkils .myskill .text-colum  > span {
+    font-size: 90%;
+    font-weight: 400;
+}
+/*.content .content-left .contact .details .myspan {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid black;
+    height: 22px;
+
+}*/
 .techicalSkills , .professionalSkils {
-    padding-left: 6.666666667%;
+    /*padding-left: 6.666666667%;*/
     margin-top: 10px;
     margin-bottom: 10px;
      box-sizing: border-box;
@@ -98,22 +141,24 @@ body {
     box-sizing: border-box;
 }
 .techicalSkills .row span  {
-    font-size:102%;
+    font-size:105%;
     font-weight: 600;
 }
-.techicalSkills .row p {
+.techicalSkills .row .text-content {
     margin-top: 2.333333333%;
-    margin-left: 4%;
-    font-size: 96%;
+    /*margin-left: 4%;*/
+    font-size: 99%;
+    font-weight: 400;
 
 }
 .professionalSkils .myskill  .text-colum {
     float: left;
     padding: 2% 0 2% 4%;
     box-sizing: border-box;
-    margin-left: 4%;
-    font-size: 97%;
-    font-weight: 600;
+    margin-left: 1%;
+    /*font-size: 97%;*/
+    font-weight: 580;
+    font-size: 16px;
 
 }
 .professionalSkils .myskill  {
@@ -127,7 +172,7 @@ body {
 }
 
 .professionalSkils .star-colum img {
-    width: 10%;
+    width: 9%;
     float: left;
     /*margin-left:1%;*/
 }
@@ -158,10 +203,22 @@ body {
 .content .content-right .resume .goal p {
     margin-top: 2%;
 }
-.content .content-right .part .title, .date,.content-colum {
+.content .content-right .resume .goal img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.content .content-right .part .title, .content-colum {
     float: left;
     margin: .5%;
 
+}
+.content .content-right .part .title img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.content .content-right .part .content-colum .row img {
+    display: inline-block;
+    vertical-align: middle;
 }
 .content .content-right .part .title h3 {
     padding: .5%;
