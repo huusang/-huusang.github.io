@@ -59,10 +59,8 @@ body {
      text-align: center;
 }
 .header-left span {
-    /*margin-top:3%;*/
     font-size: 150%;
     font-weight: bold;
-    /*margin-bottom: 2%;*/
     display: inline-block;
     vertical-align: middle;
 
@@ -90,10 +88,7 @@ body {
     box-sizing: border-box;
 }
 .content .content-left .contact img {
-
      vertical-align: middle;
-
-     /*border: 1px solid black;*/
 }
 .content .content-left .contact > span {
     font-size: 110%;
@@ -102,10 +97,7 @@ body {
     margin-bottom: 4%;
 }
 .content .content-left .skills img {
-    /*display: inline-block;*/
     vertical-align: middle;
-   /* height: 30px;*/
-    /*border: 1px solid black;*/
 }
 .content .content-left .skills > span {
     font-size: 110%;
@@ -123,15 +115,7 @@ body {
     font-size: 90%;
     font-weight: 400;
 }
-/*.content .content-left .contact .details .myspan {
-    display: inline-block;
-    vertical-align: middle;
-    border: 1px solid black;
-    height: 22px;
-
-}*/
 .techicalSkills , .professionalSkils {
-    /*padding-left: 6.666666667%;*/
     margin-top: 10px;
     margin-bottom: 10px;
      box-sizing: border-box;
@@ -146,7 +130,6 @@ body {
 }
 .techicalSkills .row .text-content {
     margin-top: 2.333333333%;
-    /*margin-left: 4%;*/
     font-size: 99%;
     font-weight: 400;
 
@@ -156,7 +139,6 @@ body {
     padding: 2% 0 2% 4%;
     box-sizing: border-box;
     margin-left: 1%;
-    /*font-size: 97%;*/
     font-weight: 580;
     font-size: 16px;
 
@@ -174,7 +156,6 @@ body {
 .professionalSkils .star-colum img {
     width: 9%;
     float: left;
-    /*margin-left:1%;*/
 }
 .content  .content-right {
     float: left;
@@ -194,7 +175,7 @@ body {
 .content .content-right .resume .img img {
     width: 100%;
     box-shadow: 1px 1px 2px black;
-    height: 200px;
+    /*height: 200px;*/
 }
 .content .content-right .resume .goal {
     float: left;
@@ -255,7 +236,6 @@ footer .footer-content {
  footer .footer-left .form {
     float:  left;
     height: 24px;
-    /*background-color:  blue;*/
     padding-left: 4%;
     box-sizing: border-box;
     margin-top: 35px;
