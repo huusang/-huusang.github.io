@@ -425,6 +425,7 @@ footer .footer-right p {
         padding: 2% 0 3% 2%;
         box-sizing:border-box;
         background: white;
+        box-shadow: 5px 5px 20px #000;
     }
 }
 .hightclass {

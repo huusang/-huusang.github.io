@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         $(this).css('display','none');
         $('.item-cancel').css('display','block');
-        $('.boxdrop').animate({'opacity':'1'}, 300, 'linear');
+        $('.boxdrop').animate({'opacity':'.98'}, 300, 'linear');
         $('.box').animate({'opacity':'1'}, 300, 'linear');
         $('.boxdrop').css('height', $(document).height()- 120);
         $('.boxdrop,.box').show();
