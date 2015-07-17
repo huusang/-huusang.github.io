@@ -120,14 +120,16 @@ body {
     margin-left: 2%;
     height: 140px;
     padding-left: 3%;
-    padding-top: 5%;
+    padding-top: 4%;
      box-sizing: border-box;
      color: rgb(64,103,170);
      text-align: center;
 }
-
+.header-left h2 {
+    line-height: 1.5;
+}
 .header-left span {
-    font-size: 150%;
+    /*font-size: 150%;*/
     font-weight: bold;
     display: inline-block;
     vertical-align: middle;
@@ -135,35 +137,60 @@ body {
 }
 .header-right {
     float: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
 }
 .header-right img {
     height: 149px;
     width: 100%;
 }
+.content {
+    min-height: 800px;
+}
 
 .content .content-left {
     box-sizing: border-box;
     float: left;
-    background: url(../img/left.jpg) repeat;
+    background: url(../img/left.jpg);
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 1124px;
+
 
 }
 .content .content-left .contact, .skills {
     width: 100%;
     padding: 6.666666667% 6.666666667% 0  6.666666667%;
     box-sizing: border-box;
+    padding-left: 10px;
 }
+
 .content .content-left .contact img {
-     vertical-align: middle;
+    vertical-align: middle;
 }
 .content .content-left  .title > span {
-    font-size: 110%;
+    /*font-size: 110%;*/
     font-weight: 600;
     display: inline-block;
     margin-bottom: 3%;
 }
+.content .content-left .contact .title {
+    font-size: 20px;
+}
+.content .content-left .skills > .title {
+    font-size: 20px;
+}
 .content .content-left .contact .details  {
     margin-top: 4%;
     width: 100%;
+    padding-left: 10px;
 }
 .content .content-left .skills img {
     vertical-align: middle;
@@ -171,65 +198,62 @@ body {
 .content .content-left .skills > span {
     font-size: 110%;
     font-weight: 600;
+    font-size: 20px;
 }
 .content .content-left .skills .techicalSkills > span {
-    font-size: 105%;
+    /*font-size: 105%;*/
     font-weight: 600;
+    font-size: 18px;
 }
-.content .content-left .skills  .professionalSkils > div > span {
-    font-size: 105%;
-    font-weight: 600;
-}
-.content .content-left .skills  .professionalSkils .myskill .text-colum  > span {
-    /*font-size: 90%;*/
-    font-weight: 600;
-}
+
 .techicalSkills , .professionalSkils {
     margin-top: 5%;
-     box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
 }
- .techicalSkills .row {
+ .techicalSkills .detail {
     padding: 3% 0 0 4%;
     box-sizing: border-box;
+    padding-left: 20px;
 }
-.techicalSkills .row span  {
-    font-size:105%;
-    font-weight: 600;
+.techicalSkills .detail span  {
+    font-weight: 500;
 }
-.techicalSkills .row .text-content {
+.techicalSkills .detail .text-content {
     margin-top: 2.333333333%;
     font-size: 99%;
     font-weight: 400;
 
 }
-.professionalSkils .myskill  .text-colum {
+.professionalSkils > span {
+    font-size: 18px;
+}
+.professionalSkils .myskill .text-colum {
     float: left;
-    padding: 1% 0 1% 4%;
     box-sizing: border-box;
-    margin-left: 1%;
-    font-weight: 580;
-    font-size: 16px;
+    font-weight: 500;
 
 }
 .professionalSkils .myskill  {
     margin-top: 2%;
+    padding-left: 20px;
 
 }
 .professionalSkils .myskill .star-colum {
     float: left;
-    padding: 2% 1% 2% 4%;
+    padding: 2% 1% 2% 0%;
     box-sizing: border-box;
 }
 
 .professionalSkils .star-colum img {
-    width: 9%;
+    width: 8%;
     float: left;
 }
 .content  .content-right {
     float: left;
-    padding: 0% 0% 3% 0%;
+    /*padding: 0% 0% 3% 0%;*/
     /*box-sizing: border-box;*/
-    margin-bottom: 1%;
+    /*margin-bottom: 1%;*/
     opacity: 1;
     background: url(../img/right.jpg) repeat;
 }
@@ -239,49 +263,83 @@ body {
     box-sizing: border-box;
 }
 .content .content-right .resume .img {
-     float: left;
+    float: left;
 }
-.content .content-right .resume .img img {
+.content-right .resume .img img {
     width: 100%;
     box-shadow: 1px 1px 2px black;
+    height: auto;
 }
 .content .content-right .resume .goal {
     float: left;
     padding: 2% 0 1% 3%;
 }
-.content .content-right .resume .goal p {
+.content-right .resume .goal  span {
+    font-size: 18px;
+    font-weight: 600;
+}
+.content-right .resume .goal p {
     margin-top: 2%;
 }
-.content .content-right .resume .goal img {
+.content-right .resume .goal img {
     display: inline-block;
     vertical-align: middle;
+}
+.content .content-right .part > .title {
+    text-transform: uppercase;
 }
 .content .content-right .part .title, .content-colum {
     float: left;
     margin: .5%;
 
 }
-.content .content-right .part .title img {
+.content-right .part .title img {
     display: inline-block;
     vertical-align: middle;
 }
-.content .content-right .part .content-colum .row img {
+.part .content-colum .row img {
     display: inline-block;
     vertical-align: middle;
 }
-.content .content-right .part .title span {
+.part .title span {
     box-sizing: border-box;
     font-weight: 600;
     font-size: 110%;
 
 }
-.content .content-right .part .content-colum h4,p {
+.part .content-colum h4,p {
     padding: .5%;
     box-sizing: border-box;
 
 }
-.content .content-right .part .content-colum .row .colum {
+ .part .content-colum .row .colum {
     float: left;
+
+}
+
+.part .content-colum .row .colum h5 {
+    margin-left: 20px;
+}
+.part .content-colum .row .colum p {
+    margin-left: 20px;
+}
+.part .content-colum .row .colum .project {
+    margin-left: 40px;
+}
+.part .content-colum .facul {
+    float: left;
+}
+.part .content-colum .facul .title {
+    font-weight: 600;
+}
+.part .content-colum .major {
+    float: left;
+}
+.part .content-colum .major .title {
+    font-weight: 600;
+}
+.part.workplace .content-colum  img {
+    vertical-align: middle;
 }
 footer {
     margin-top: 10px;
@@ -361,6 +419,7 @@ footer .footer-right p {
     .content .content-left {
         padding-bottom: 6%;
         display: none;
+        min-height: 600px;
     }
     .content .content-left  .contact {
         display: none;
@@ -375,7 +434,7 @@ footer .footer-right p {
     }
     .professionalSkils .myskill .star-colum {
         float: left;
-        padding: 0 0 0 4%;
+        /*padding: 0 0 0 4%;*/
      }
     .professionalSkils .myskill .star-colum span {
         margin-top: 0%;
@@ -385,6 +444,7 @@ footer .footer-right p {
      .content .content-right {
         width: 100%;
         margin: 0 auto;
+        min-height: 600px;
     }
      .footer-left .form {
         display: none;
@@ -465,6 +525,6 @@ footer .footer-right p {
     font-weight: 600;
 }
 .hightclass  .text-colum > span {
-    font-weight: 600;
+    /*font-weight: 600;*/
     font-size: 16px;
 }
